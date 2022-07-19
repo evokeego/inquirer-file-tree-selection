@@ -8,8 +8,8 @@
   "scripts": {
     "changelog": "auto-changelog",
     "postpublish": "npm run changelog && git push origin --all; git push origin --tags",
-    "prepublish": "tsc",
-    "build": "tsc"
+    "prepublish": "npx -p typescript tsc",
+    "build": "npx -p typescript tsc"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
