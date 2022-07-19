@@ -25,12 +25,12 @@
     "cli-cursor": "^3",
     "figures": "^3",
     "lodash": "^4.17.11",
-    "rxjs": "^7.5.2"
+    "rxjs": "^7.5.2",
+    "inquirer": "^8.2.0"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
     "@types/inquirer": "^8.2.0",
-    "auto-changelog": "^2.2.1",
-    "inquirer": "^8.2.0"
+    "@types/node": "^17.0.21",
+    "auto-changelog": "^2.2.1"
   }
 }
